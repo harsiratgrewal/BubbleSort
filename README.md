@@ -1,18 +1,2 @@
-## Getting Started
+First, the user is asked for yes or no input if the user wants to read from a existing file or not. If the user does want to read from an exisiting file, then user is prompted to enter the file name. If no file match is found, an exception occurs. Once the user enters file name, the integer data from the file is sorted out. If the file does not contain an integer, or integers with the desired format, an exception occurs. Once the data is sorted, user is prompted to enter an output file name. If the user does not want to read from an exisiting file, the user is prompted to enter the length of an integer array that will be randomly generated. It will be then sorted out. The user is asked again to enter the name of the output file the sorted data will be stored in.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
